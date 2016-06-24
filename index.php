@@ -12,7 +12,15 @@
 
                 <!-- Add page content here -->
                 <div class="page-content index"> 
-
+                    <img src="images/graffiti-wall.jpg"/>
+                    <br/>
+                    <img src="images/shoes.jpg"/>
+                    <br/>
+                    <img src="images/pastel-blocks.jpg"/>
+                    <br/>
+                    <img src="images/retro-blue.jpg"/>
+                    <br/>
+                    <img src="images/watch-shades-pouch.jpg"/>
                 </div>
 
                 <?php include("footer.php"); ?>
