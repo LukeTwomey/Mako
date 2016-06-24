@@ -4,6 +4,12 @@
 
 @headerHeight: 100px;
 @mainFont: 'Source Sans Pro', sans-serif;
+@1: 'Varela', sans-serif;
+@2: 'Aldrich', sans-serif;
+@3: 'Jura', sans-serif;
+@4: 'Syncopate', sans-serif;
+@5: 'Gafata', sans-serif;
+@6: 'Mallanna', sans-serif;
 
 /**************************************************************
 ******************         MIXINS          ********************
@@ -85,7 +91,7 @@ html{
 body{
     background: #fff;
     color: #000;
-    font-family: @mainFont;
+    font-family: @4;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern","liga";
@@ -101,8 +107,9 @@ h1, h2, p{
 }
 
 h1{
-    font-size: 3em;
+    font-size: 2.2em;
     line-height: 1.2em;
+    text-transform: uppercase;
 }
 
 h2{
@@ -175,7 +182,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 1em;
+    padding-top: 1.9em;
     text-align: center;
     width: 100%;
     z-index: 1;
@@ -195,7 +202,7 @@ header{
     left: 6px;
     padding: 10px;
     position: absolute;
-    top: 20px;
+    top: 24px;
     width: 50px;
 }
 
