@@ -85,5 +85,16 @@ $(document).ready(function () {
             element.addEventListener("click", menuClick, false);
         }
     }
+
+    /* Initialise masonry layout */
+    var $grid = $('.grid').imagesLoaded( function() {
+    // initialise Masonry after all images have loaded
+    $grid.masonry({
+        itemSelector: '.block',
+        columnWidth: '.block-sizer',
+        gutter: '.gutter-sizer',
+        percentPosition: true
+    });
+});
     
 });

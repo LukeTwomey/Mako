@@ -10,17 +10,24 @@
             <div class="site-wrap">
                 <?php include("header.php"); ?>
 
-                <!-- Add page content here -->
                 <div class="page-content index"> 
-                    <img src="images/graffiti-wall.jpg"/>
-                    <br/>
-                    <img src="images/shoes.jpg"/>
-                    <br/>
-                    <img src="images/pastel-blocks.jpg"/>
-                    <br/>
-                    <img src="images/retro-blue.jpg"/>
-                    <br/>
-                    <img src="images/watch-shades-pouch.jpg"/>
+                    <div class="grid">
+                        <div class="block-sizer"></div>
+                        <div class="gutter-sizer"></div>
+                        <div class="block">
+                            <img src="images/graffiti-wall.jpg"/>
+                        </div>
+                        <div class="block"> 
+                            <img src="images/pastel-blocks.jpg"/>
+                        </div>
+                        <div class="block">
+                            <img src="images/retro-blue.jpg"/>
+                        </div>
+                        <div class="block"> 
+                            <img 
+                            src="images/shoes.jpg"/>
+                        </div>
+                    </div>
                 </div>
 
                 <?php include("footer.php"); ?>
