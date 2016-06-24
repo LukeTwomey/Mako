@@ -1,0 +1,599 @@
+/**************************************************************
+****************         VARIABLES          *******************
+**************************************************************/
+
+@headerHeight: 100px;
+@mainFont: 'Source Sans Pro', sans-serif;
+
+/**************************************************************
+******************         MIXINS          ********************
+**************************************************************/
+
+.SmoothHover(@speed){
+    -o-transition: color @speed ease-in-out, background @speed ease-in-out;
+    -ms-transition: color @speed ease-in-out, background @speed ease-in-out;
+    -moz-transition: color @speed ease-in-out, background @speed ease-in-out;
+    -webkit-transition: color @speed ease-in-out, background @speed ease-in-out;
+    transition: color @speed ease-in-out, background @speed ease-in-out;
+}
+
+.Clearfix{
+	*zoom:1;
+	&:before,
+	&:after {
+	    content:"";
+	    display:table;
+	}
+	&:after {
+	    clear:both;
+	}
+}
+
+.Flexbox{
+    display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+}
+
+.Flex($values) {
+  -webkit-box-flex: $values;
+  -moz-box-flex:  $values;
+  -webkit-flex:  $values;
+  -ms-flex:  $values;
+  flex:  $values;
+}
+
+.Order($val) {
+  -webkit-box-ordinal-group: $val;
+  -moz-box-ordinal-group: $val;
+  -ms-flex-order: $val;
+  -webkit-order: $val;
+  order: $val;
+}
+
+/**************************************************************
+*****************         CLASSES          *******************
+**************************************************************/
+
+.hidden{
+    display: none;
+}
+
+.invisible{
+    opacity: 0;
+}
+
+.freeze{
+    overflow-y: hidden;
+}
+
+/**************************************************************
+******************         GENERAL          *******************
+**************************************************************/
+
+html{
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background: #fff;
+    color: #000;
+    font-family: @mainFont;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern","liga";
+    -webkit-font-smoothing: antialiased;
+}
+
+#fouc{
+    overflow-x: hidden;
+}
+
+h1, h2, p{
+    margin-bottom: 1em;
+}
+
+h1{
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p, ul, ol, blockquote, figcaption{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul, ol{
+    list-style: square;
+}
+
+ol{
+    list-style: decimal;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+input {
+    -webkit-appearance: none;
+}
+
+button, #catwebformbutton{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    background: none;
+    cursor: pointer;
+    font-family: @mainFont;
+    font-size: 1.7em;
+    font-weight: 600;
+    padding: 0.3em 1.5em 0.2em 1.5em;
+    .SmoothHover(1s);
+    text-transform: lowercase;
+}
+
+button:hover, #catwebformbutton:hover{
+    background: grey;
+    color: red;
+}
+
+em{
+    font-style: italic;
+}
+
+strong, bold{
+    font-weight: 600;
+}
+
+/**************************************************************
+******************         HEADER          *******************
+**************************************************************/
+
+header{
+	background: #fff; 
+    font-size: 1rem;
+    height: @headerHeight;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.menu{
+    cursor: pointer;
+    font-size: 1rem;
+    height: 40px;
+    left: 16px;
+    padding: 5px;
+    position: absolute;
+    top: 16px;
+    width: 40px;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 24px;
+    max-width: 47px;
+}
+
+
+/*****************   NAV   *****************/
+
+/*********************************
+******      GENERAL      ********
+********************************/
+
+nav{
+    background: #fff;
+    border-bottom: 1px solid #D3D0E1;
+    display: none;
+    overflow-y: auto;
+    padding-bottom: 57px;
+    position: fixed;
+    text-align: left;
+    top: @headerHeight;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav > ul li a{
+	color: black;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1em;
+}
+
+/* Give the "parent" list items a dropdown arrow to indicate they can be expanded to show a sub-menu */
+nav > ul li.parent{
+    /*background-size: ;*/
+}
+
+/* Don't show any child menus initially. We only want these to appear if the user taps button to display them */
+nav > ul li ul{
+    display: none;
+}
+
+/* Add dividing line between menu items - not necessary for the very last one */
+nav > ul li:not(:last-child){
+    border-bottom: 1px solid #000;
+}
+
+/* If the list item is a parent, reduce the width of the hyperlink contained within it.
+   This reveals the li below, allowing us to use it as a fake button which when clicked displays its child menu */
+nav > ul li.parent > a{
+    width: 80%;
+}
+
+/*********************************
+******     1st LEVEL     ********
+********************************/
+
+@1st-level-color: #fff;
+
+nav > ul > li > a{
+    background: @1st-level-color;
+}
+
+nav > ul > li.parent{
+	background: @1st-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
+    background-size: 15px 15px;
+}
+
+/*********************************
+******     2nd LEVEL     ********
+********************************/
+
+@2nd-level-color: #f4f4f4;
+
+nav > ul > li > ul > li > a{
+    background: @2nd-level-color;
+}
+
+nav > ul > li > ul > li.parent{
+	background: @2nd-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
+    background-size: 15px 15px;
+}
+
+/*********************************
+******     3rd LEVEL     ********
+********************************/
+
+@3rd-level-color: #dfdfdf;
+
+nav > ul > li > ul > li > ul > li > a{
+    background: @3rd-level-color;
+}
+
+nav > ul > li > ul > li > ul >li.parent{
+	background: @3rd-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
+    background-size: 15px 15px;
+}
+
+
+/**************************************************************
+***************         PAGE-CONTENT          *****************
+**************************************************************/
+
+.page-content{
+    .Clearfix;
+    background: #fff;
+    font-size: 1rem;
+    margin-top: @headerHeight;
+    padding: 2em;
+    z-index: 0;
+}
+
+/**************************************************************
+******************         FOOTER           *******************
+**************************************************************/
+
+footer{
+    font-size: 1rem;
+}
+
+
+/****************************************************************************************************************
+*****************************************************************************************************************
+***************************                  OVER 500 PIXELS WIDE             ***********************************
+*****************************************************************************************************************
+****************************************************************************************************************/
+
+@media (min-width: 31.25em) {
+    
+    /**************************************************************
+    ******************         GENERAL          *******************
+    **************************************************************/
+    
+	/*html{
+        font-size: 1.5em;
+    }*/
+    
+}
+
+/****************************************************************************************************************
+*****************************************************************************************************************
+***************************                  OVER 700 PIXELS WIDE             ***********************************
+*****************************************************************************************************************
+****************************************************************************************************************/
+
+@media (min-width: 43.75em) {
+    
+    /**************************************************************
+    ******************         GENERAL          *******************
+    **************************************************************/
+
+	/*html{
+        font-size: 2em;
+    }*/
+    
+}
+
+/****************************************************************************************************************
+*****************************************************************************************************************
+***************************                  OVER 900 PIXELS WIDE             ***********************************
+***************************                  - MENU CHANGE                    ***********************************
+*****************************************************************************************************************
+****************************************************************************************************************/
+
+@media (min-width: 56.25em) {
+    
+    /**************************************************************
+    ******************         GENERAL          *******************
+    **************************************************************/
+
+	/*html{
+        font-size: 2em;
+    }*/
+    
+    
+    /**************************************************************
+    ******************         HEADER          *******************
+    **************************************************************/
+    
+    header{
+        padding: 0 1em;
+        text-align: left;
+    }
+    
+    .menu{
+        display: none;
+    }
+  
+    /*****************   NAV   *****************/
+
+    /*********************************
+    ******      GENERAL      ********
+    ********************************/
+    
+    nav{
+        border-bottom: none;
+        display: block;
+        float: right;
+        background: transparent;
+        overflow-y: visible;
+        padding-bottom: 0;
+        position: relative;
+        text-align: right;
+        top: 0;
+        width: 90%;
+        z-index: 1;
+    }
+    
+    nav ul > li{
+        display: inline-block;
+    }
+    
+    /* Remove dividing line between menu items - no longer needed */
+    nav > ul li:not(:last-child){
+        border-bottom: none;
+    }
+    
+    /* Remove the dropdown from "parent" list items */
+    nav > ul li.parent,
+    nav > ul li ul li.parent,
+    nav > ul li ul li ul li.parent{
+        background-image: none;
+    }
+    
+    /* If the list item is a parent, make it full width again. No longer need a button to click to drop down a menu, hover instead on desktop layout */
+    nav > ul li.parent > a{
+        width: 100%;
+    }
+    
+    /* When a "parent" list item is hovered over, show its child menu */
+    li.parent:hover > ul{
+        display: block;
+    }
+    
+    /* All child menus need to have this styling - regardless of what level they are */
+    nav > ul > li ul{
+        position: absolute;
+        text-align: left;
+        width: auto;
+    }
+    
+    /* Make the list items for child menus stack vertically ontop of each other, instead of side by side */
+    nav > ul > li ul li{
+        display: block;
+    }
+    
+    /* Make sure menu item labels all stay on one line */
+    nav > ul > li ul li a{
+        white-space: nowrap;
+    }
+    
+    /* When you hover over an li, change its colour. This is global but you can set it by level if required */
+    nav > ul li:hover{
+        background: #f0b882!important;
+    }
+    
+    nav > ul a{
+        background: transparent;
+    }
+    
+    /* Set the height of everything so it matches the height of the header and the list item labels are vertically centered*/
+    nav,
+    nav > ul,
+    nav > ul > li{
+        height: @headerHeight;
+    }
+    
+    nav > ul > li > a{
+        line-height: @headerHeight;
+        padding: 0 1em;
+    }
+    
+    /*********************************
+    ******     1st LEVEL     ********
+    ********************************/
+    
+    @1st-level-color: transparent;
+    
+    nav > ul > li > a,
+    nav > ul > li.parent{
+        background: @1st-level-color;
+    }
+    
+    /*********************************
+    ******     2nd LEVEL     ********
+    ********************************/
+    
+    @2nd-level-color: #fff;
+    
+    nav > ul > li > ul > li{
+        position: relative;
+    }
+    
+    nav > ul > li > ul > li > a{
+        background: transparent;
+    }
+    
+    nav > ul > li > ul > li,
+    nav > ul > li > ul > li.parent{
+        background: @2nd-level-color;
+    }
+    
+    /*********************************
+    ******     3rd LEVEL     ********
+    ********************************/
+    
+    @3rd-level-color: #eeeeee;
+    
+    nav > ul > li > ul > li > ul{
+        left: 100%;
+        top: 0;
+        width: auto;
+    }
+    
+    nav > ul > li > ul > li > ul > li{
+        width: 100%;
+    }
+    
+    nav > ul > li > ul > li > ul > li > a{
+        background: transparent;
+    }
+
+    nav > ul > li > ul > li > ul > li,
+    nav > ul > li > ul > li > ul > li.parent{
+        background: @3rd-level-color;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+//
+//
+//
+//// Breakpoints
+//$bp-small: 48em; // 768px
+//$bp-medium: 64em; // 1024px
+//$bp-large: 85.375em; // 1366px
+//$bp-xlarge: 120em; // 1920px
+//$bp-xxlarge: 160em; // 2560px
+//
+//// Media Queries
+//$mq-small: "(min-width: #{$bp-small})";
+//$mq-medium: "(min-width: #{$bp-medium})";
+//$mq-large: "(min-width: #{$bp-large})";
+//$mq-xlarge: "(min-width: #{$bp-xlarge})";
+//$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+//$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
+//
+//// Font-Size
+//$base-font-size: 1em;
+//
+//// Line-Height
+//$base-line-height: 1.5;
+//$header-line-height: 1.25;
+//
+//body {
+//  font-size: $base-font-size;
+//  line-height: $base-line-height;
+//
+//  @media #{$mq-medium} {
+//    font-size: $base-font-size*1.2;
+//    line-height: $base-line-height*1.2;
+//  }
+//
+//  @media #{$mq-large} {
+//    font-size: $base-font-size*1.3;
+//  }
+//
+//  @media #{$mq-xlarge} {
+//    font-size: $base-font-size*1.4;
+//  }
+//
+//  @media #{$mq-xxlarge} {
+//    font-size: $base-font-size*1.6;
+//  }
+//}
+//
+//.container {
+//  margin: 0 4%;
+//
+//  @media #{$mq-medium} {
+//    margin: 0 8%;
+//  }
+//
+//  @media #{$mq-large} {
+//    margin: 0 12%;
+//  }
+//
+//  @media #{$mq-xlarge} {
+//    margin: 0 18%;
+//  }
+//}
