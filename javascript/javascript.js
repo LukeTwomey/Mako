@@ -19,7 +19,7 @@ $(document).ready(function () {
     /*****************   NAV   *****************/
     
     $(".menu").click(function(){
-        $("nav").slideToggle();
+        $("nav").toggle();
         $("body").toggleClass("freeze");
     });
     

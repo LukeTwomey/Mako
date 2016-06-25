@@ -207,15 +207,12 @@ header{
     width: 50px;
 }
 
-
-/*****************   NAV   *****************/
-
-/*********************************
-******      GENERAL      ********
-********************************/
+/**************************************************************
+***************             NAV               *****************
+**************************************************************/
 
 nav{
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8);
     border-bottom: 1px solid #D3D0E1;
     display: none;
     overflow-y: auto;
@@ -230,79 +227,13 @@ nav{
 }
 
 nav > ul li a{
+    font-size: 1.1em;
 	color: black;
     display: block;
     height: 100%;
     width: 100%;
     padding: 1em;
 }
-
-/* Give the "parent" list items a dropdown arrow to indicate they can be expanded to show a sub-menu */
-nav > ul li.parent{
-    /*background-size: ;*/
-}
-
-/* Don't show any child menus initially. We only want these to appear if the user taps button to display them */
-nav > ul li ul{
-    display: none;
-}
-
-/* Add dividing line between menu items - not necessary for the very last one */
-nav > ul li:not(:last-child){
-    border-bottom: 1px solid #000;
-}
-
-/* If the list item is a parent, reduce the width of the hyperlink contained within it.
-   This reveals the li below, allowing us to use it as a fake button which when clicked displays its child menu */
-nav > ul li.parent > a{
-    width: 80%;
-}
-
-/*********************************
-******     1st LEVEL     ********
-********************************/
-
-@1st-level-color: #fff;
-
-nav > ul > li > a{
-    background: @1st-level-color;
-}
-
-nav > ul > li.parent{
-	background: @1st-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
-    background-size: 15px 15px;
-}
-
-/*********************************
-******     2nd LEVEL     ********
-********************************/
-
-@2nd-level-color: #f4f4f4;
-
-nav > ul > li > ul > li > a{
-    background: @2nd-level-color;
-}
-
-nav > ul > li > ul > li.parent{
-	background: @2nd-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
-    background-size: 15px 15px;
-}
-
-/*********************************
-******     3rd LEVEL     ********
-********************************/
-
-@3rd-level-color: #dfdfdf;
-
-nav > ul > li > ul > li > ul > li > a{
-    background: @3rd-level-color;
-}
-
-nav > ul > li > ul > li > ul >li.parent{
-	background: @3rd-level-color url(/images/icons/submenu.png) 92% 21px no-repeat;
-    background-size: 15px 15px;
-}
-
 
 /**************************************************************
 ***************         PAGE-CONTENT          *****************
