@@ -3,13 +3,9 @@
 **************************************************************/
 
 @headerHeight: 100px;
-@mainFont: 'Source Sans Pro', sans-serif;
-@1: 'Varela', sans-serif;
-@2: 'Aldrich', sans-serif;
-@3: 'Jura', sans-serif;
-@4: 'Syncopate', sans-serif;
-@5: 'Gafata', sans-serif;
-@6: 'Mallanna', sans-serif;
+@mainFont: 'Khula', sans-serif;
+@logoFont: 'Syncopate', sans-serif;
+
 
 /**************************************************************
 ******************         MIXINS          ********************
@@ -91,7 +87,7 @@ html{
 body{
     background: #fff;
     color: #000;
-    font-family: @4;
+    font-family: @mainFont;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern","liga";
@@ -102,13 +98,21 @@ body{
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4{
+    line-height: 1.5em;
+}
+
+
+p, ol, ul, blockquote, figcaption{
+    line-height: 1.9em;    
+}
+
 h1, h2, p{
     margin-bottom: 1em;
 }
 
 h1{
     font-size: 2.2em;
-    line-height: 1.2em;
     text-transform: uppercase;
 }
 
@@ -118,7 +122,6 @@ h2{
 
 p, ul, ol, blockquote, figcaption{
     font-size: 1em;
-    line-height: 1.5em;
 }
 
 ul, ol{
@@ -189,6 +192,10 @@ header{
     z-index: 1;
 }
 
+.logo{
+    font-family: @logoFont;
+}
+
 .logo:link,
 .logo:visited,
 .logo:hover,
@@ -251,6 +258,10 @@ nav > ul li a{
 /**************************************************************
 ***************            INDEX              *****************
 **************************************************************/
+
+.grid{
+    margin-bottom: 1em;
+}
 
 .block,
 .block-sizer{

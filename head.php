@@ -22,3 +22,5 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,300italic,400italic,200italic,600,600italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
 <link href='https://fonts.googleapis.com/css?family=Varela|Aldrich|Jura:400,500,600,300|Syncopate:400,700|Gafata|Mallanna' rel='stylesheet' type='text/css'>
+
+<link href='https://fonts.googleapis.com/css?family=Khula:400,700' rel='stylesheet' type='text/css'>
