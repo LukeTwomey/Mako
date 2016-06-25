@@ -18,7 +18,9 @@ $(document).ready(function () {
     
     /*****************   NAV   *****************/
     
-    $(".menu").click(function(){
+    $(".menu, .close").click(function(){
+        $(".close").toggle();
+        $(".menu").toggle();
         $("nav").toggle();
         $("body").toggleClass("freeze");
     });
