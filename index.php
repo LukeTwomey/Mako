@@ -18,6 +18,7 @@
                             <a href="binksy.php">
                                 <img src="images/graffiti-wall.jpg"/>
                                 <div class="hover-reveal">
+                                    <h2>Binksy</h2>
                                 </div>
                             </a>
                         </div>
