@@ -106,6 +106,14 @@ $(document).ready(function () {
             $(".up").show();
         }
     });
+
+    /* smooth scroll to top of page when back to top button is pressed */
+    $(".up").click(function(){
+        $("html, body").animate({
+            scrollTop: 0
+        },500);
+    });
+
 });
     
 });
