@@ -97,6 +97,15 @@ $(document).ready(function () {
         gutter: '.gutter-sizer',
         percentPosition: true
     });
+
+    /* show/hide the back to top button as the page is scrolled */
+    $(window).scroll(function() {
+        if($(window).scrollTop() == 0) {
+            $(".up").hide();
+        }else{
+            $(".up").show();
+        }
+    });
 });
     
 });
