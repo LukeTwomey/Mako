@@ -29,7 +29,7 @@
                         </div>
                     </div>
 
-                    <h2>We help give your business a unique identity.</h2>
+                    <h2>We create your brand.</h2>
 
                     <div class="grid">
                         <div class="block-sizer"></div>
