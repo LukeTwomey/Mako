@@ -15,7 +15,12 @@
                         <div class="block-sizer"></div>
                         <div class="gutter-sizer"></div>
                         <div class="block">
-                            <a href="binksy.php"><img src="images/graffiti-wall.jpg"/></a>
+                            <a href="binksy.php">
+                                <img src="images/graffiti-wall.jpg"/>
+                                <div class="hover-reveal">
+                                
+                                </div>
+                            </a>
                         </div>
                         <div class="block"> 
                             <img src="images/pastel-blocks.jpg"/>
