@@ -15,7 +15,7 @@
                         <div class="block-sizer"></div>
                         <div class="gutter-sizer"></div>
                         <div class="block">
-                            <img src="images/graffiti-wall.jpg"/>
+                            <a href="binksy.php"><img src="images/graffiti-wall.jpg"/></a>
                         </div>
                         <div class="block"> 
                             <img src="images/pastel-blocks.jpg"/>
