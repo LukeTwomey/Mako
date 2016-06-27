@@ -18,19 +18,29 @@
                             <a href="binksy.php">
                                 <img src="images/graffiti-wall.jpg"/>
                                 <div class="hover-reveal">
-                                
                                 </div>
                             </a>
                         </div>
                         <div class="block"> 
-                            <img src="images/pastel-blocks.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/pastel-blocks.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                         <div class="block">
-                            <img src="images/retro-blue.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/retro-blue.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                         <div class="block"> 
-                            <img 
-                            src="images/shoes.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/shoes.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                     </div>
 
@@ -40,18 +50,32 @@
                         <div class="block-sizer"></div>
                         <div class="gutter-sizer"></div>
                         <div class="block">
-                            <img src="images/watch-shades-pouch.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/watch-shades-pouch.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                         <div class="block">
-                            <img src="images/blue-hair.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/blue-hair.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
-                        
-                       
                         <div class="block"> 
-                            <img src="images/geometric-waves.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/geometric-waves.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                          <div class="block">
-                            <img src="images/macaroons.jpg"/>
+                            <a href="binksy.php">
+                                <img src="images/macaroons.jpg"/>
+                                <div class="hover-reveal">
+                                </div>
+                            </a>
                         </div>
                     </div>
 
