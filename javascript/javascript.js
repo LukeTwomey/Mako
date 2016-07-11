@@ -23,6 +23,9 @@ $(document).ready(function () {
         $(".menu").toggle();
         $("nav").toggle();
         $("body").toggleClass("freeze");
+        if ($(".up").is(":visible")) {
+            $(".up").hide();
+        }
     });
     
     /* When you tap the button in the mobile navigation, toggle the child menu */
