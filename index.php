@@ -45,7 +45,7 @@
                         </div>
                     </div>
 
-                    <h2>We create your brand.</h2>
+                    <h2>We build your brand.</h2>
 
                     <div class="grid">
                         <div class="block-sizer"></div>
