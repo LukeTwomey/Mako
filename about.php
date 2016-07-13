@@ -11,6 +11,7 @@
                 <?php include("header.php"); ?>
 
                 <div class="page-content about"> 
+                    <img src="images/goatee-m.jpg"/>
                     <h1>About</h1>
                 </div>
 
