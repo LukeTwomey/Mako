@@ -3,6 +3,7 @@
 **************************************************************/
 
 @headerHeight: 90px;
+@max-page-width: 1600px;
 @mainFont: 'Khula', sans-serif;
 @logoFont: 'Syncopate', sans-serif;
 
@@ -197,9 +198,11 @@ header{
     height: @headerHeight;
     position: fixed;
     top: 0;
-    left: 0;
+    max-width: @max-page-width;
+    left: 50%;
+    transform: translateX(-50%);
     padding-top: 1.5em;
-    padding-left: 1em;
+    padding-left: 16px;
     text-align: left;
     width: 100%;
     z-index: 1;
@@ -271,7 +274,10 @@ nav > ul li a{
     background: #fff;
     font-size: 1rem;
     margin-top: @headerHeight;
-    padding: 0 1em;
+    max-width: @max-page-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 16px;
     z-index: 0;
 }
 
@@ -368,6 +374,9 @@ nav > ul li a{
 
 footer{
     font-size: 1rem;
+    max-width: @max-page-width;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
 }
 
