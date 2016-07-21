@@ -10,9 +10,9 @@
             <div class="site-wrap">
                 <?php include("header.php"); ?>
 
-                <div class="page-content about"> 
+                <div class="page-content sub about"> 
                     <img src="images/goatee-m.jpg"/>
-                    <div class="our-info">
+                    <div class="sub-content">
                         <h1>About</h1>
                         <h2>We are Mako.</h2>
                         <p>Mako are a small team of designers and developers based in London.</p>
