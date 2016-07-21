@@ -351,15 +351,24 @@ nav > ul li a{
     height: 100%;
 }
 
-.hover-reveal h2{
-    color: white;
+.hover-text{
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 0.5em 1em;
     position: absolute;
-    bottom: 0.3em;
-    left: 0.8em;
     width: 100%;
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: left;
     margin: 0;
+}
+
+.hover-text h2{
+    margin: 0;
+}
+
+.hover-text p{
+    display: none;
 }
 
 .block a:hover .hover-reveal{
@@ -414,6 +423,11 @@ footer ul{
 
     .page-content{
         font-size: 1.5em;
+    }
+
+    .hover-text p{
+        display: block;
+        margin: 0;
     }
     
 }
