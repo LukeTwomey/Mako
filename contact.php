@@ -14,10 +14,12 @@
                     <img src="images/contact-m.jpg"/>
                     <div class="sub-content">
                         <h1>Contact</h1>
-                        <h2>Don't be shy!</h2>
                         
                         <form>
-
+                            <input type="text" name="name" placeholder="Name" />
+                            <input type="text" name="email" placeholder="Email" />
+                            <textarea name="message" placeholder="Message" rows="5"></textarea>
+                            <input type="submit" value="Submit" />
                         </form>
 
                     </div>
