@@ -14,7 +14,11 @@
                     <img src="images/contact-m.jpg"/>
                     <div class="sub-content">
                         <h1>Contact</h1>
-                        <h2>Don't be shy.</h2>
+                        <h2>Don't be shy!</h2>
+                        
+                        <form>
+
+                        </form>
 
                     </div>
                 </div>
