@@ -26,7 +26,7 @@
                             </a>
                         </div>
                         <div class="block"> 
-                            <a href="binksy.php">
+                            <a href="pastel-addicts.php">
                                 <img src="images/pastel-blocks.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
