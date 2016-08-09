@@ -11,19 +11,16 @@
                 <?php include("header.php"); ?>
 
                 <div class="page-content binksy project"> 
-                    <img src="images/graffiti-wall.jpg"/>
+                    <img src="images/pastel-blocks-main.jpg"/>
 
-                    <h1>Binksy</h1>
-                    <p>Binksy is a London based street artist with a unique style and exceptional talent.</p>
-                    <p>We worked closely with Binksy to market his skills and propel him into the mainstream.</p>
+                    <h1>Pastel Addicts</h1>
+                    <p>Pastel Addicts are a unique, quirky art supply store in central London. The twist - they actually own a gallery where the supplies are sold. This beautiful building is minimal, and art focused. Their branding needed to match.</p>
 
-                    <img src="images/cigarette-s.jpg" srcset="images/cigarette-m.jpg 800w, images/cigarette-l.jpg 1200w, images/cigarette-xl.jpg 1600w" alt="Smoking cigarette graffiti"/>
+                    <img src="images/brushes-s.jpg" srcset="images/brushes-m.jpg 800w, images/brushes-l.jpg 1200w, images/brushes-xl.jpg 1500w" alt="Paint brushes"/>
 
-                    <img class="portrait left" src="images/glasses-s.jpg" srcset="images/glasses-m.jpg 800w, images/glasses-l.jpg 1200w, images/glasses-xl.jpg 1600w" alt="Man wearing glasses graffiti"/>
+                    <img src="images/gallery-s.jpg" srcset="images/gallery-m.jpg 800w, images/gallery-l.jpg 1200w, images/gallery-xl.jpg 1600w" alt="Gallery studio"/>
 
-                    <img class="portrait right" src="images/joker-s.jpg" srcset="images/joker-m.jpg 800w, images/joker-l.jpg 1200w, images/joker-xl.jpg 1600w" alt="The Joker graffiti"/>
-
-                    <img src="images/graffiti-girl-s.jpg" srcset="images/graffiti-girl-m.jpg 800w, images/graffiti-girl-l.jpg 1200w, images/graffiti-girl-xl.jpg 1600w" alt="Graffiti girl crouching"/>
+                    <img src="images/easel-s.jpg" srcset="images/easel-m.jpg 800w, images/easel-l.jpg 1200w, images/easel-xl.jpg 1600w" alt="Easel"/>                    
 
                 </div>
 
