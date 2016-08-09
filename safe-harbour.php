@@ -14,7 +14,7 @@
                     <img src="images/pastel-blocks-main.jpg"/>
 
                     <h1>Safe Harbour</h1>
-                    <p>Safe Harbour .</p>
+                    <p>Safe Harbour are a luxury yacht company, specialising in high end charters and sales. They offer only exquisite, opulent experiences, and only the wealthiest need apply. We ensure the reputation is maintained at an exceptionally high level, by providing first class materials to match and exceed their yachts.</p>
 
                     <img src="images/brushes-s.jpg" srcset="images/brushes-m.jpg 800w, images/brushes-l.jpg 1200w, images/brushes-xl.jpg 1500w" alt="Paint brushes"/>
 
