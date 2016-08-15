@@ -48,7 +48,7 @@
                             </a>
                         </div>
                         <div class="block"> 
-                            <a href="binksy.php">
+                            <a href="crazy-feet.php">
                                 <img src="images/shoes.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
