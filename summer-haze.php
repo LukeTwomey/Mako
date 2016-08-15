@@ -11,16 +11,16 @@
                 <?php include("header.php"); ?>
 
                 <div class="page-content summer-haze project"> 
-                    <img src="images/pastel-addicts-s.jpg" srcset="images/pastel-addicts-m.jpg 800w, images/pastel-addicts-l.jpg 1200w, images/pastel-addicts-xl.jpg 1500w" alt="Pastel coloured squares"/>
+                    <img src="images/summer-haze-s.jpg" srcset="images/summer-haze-m.jpg 800w, images/summer-haze-l.jpg 1200w, images/summer-haze-xl.jpg 1500w" alt="Watch, shades and purse."/>
 
                     <h1>Summer Haze</h1>
                     <p>Summer Haze know how to make you look hot in the sun. As part of the larger Force 9 clothing brand, their summer spin-off label is aimed squarely at the scorching end of the market. Need to look good at that beach BBQ? They've got you covered.</p>
 
-                    <img src="images/paintbrushes-s.jpg" srcset="images/paintbrushes-m.jpg 800w, images/paintbrushes-l.jpg 1200w, images/paintbrushes-xl.jpg 1500w" alt="Paint brushes"/>
+                    <img class="portrait left" src="images/summer-haze-2-s.jpg" srcset="images/summer-haze-2-m.jpg 800w, images/summer-haze-2-l.jpg 1200w, images/summer-haze-2-xl.jpg 1500w" alt="Fashion accessories."/>
 
-                    <img src="images/gallery-s.jpg" srcset="images/gallery-m.jpg 800w, images/gallery-l.jpg 1200w, images/gallery-xl.jpg 1600w" alt="Gallery studio"/>
+                    <img class="portrait right" src="images/summer-haze-3-s.jpg" srcset="images/summer-haze-3-m.jpg 800w, images/summer-haze-3-l.jpg 1200w, images/summer-haze-3-xl.jpg 1500w" alt="Model posing."/>
 
-                    <img src="images/easel-s.jpg" srcset="images/easel-m.jpg 800w, images/easel-l.jpg 1200w, images/easel-xl.jpg 1600w" alt="Easel"/>                    
+                    <img src="images/summer-haze-4-s.jpg" srcset="images/summer-haze-4-m.jpg 800w, images/summer-haze-4-l.jpg 1200w, images/summer-haze-4-xl.jpg 1500w" alt="Fashion accessories."/>            
 
                 </div>
 
