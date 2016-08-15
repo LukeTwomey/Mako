@@ -13,7 +13,7 @@
                 <div class="page-content summer-haze project"> 
                     <img src="images/pastel-addicts-s.jpg" srcset="images/pastel-addicts-m.jpg 800w, images/pastel-addicts-l.jpg 1200w, images/pastel-addicts-xl.jpg 1500w" alt="Pastel coloured squares"/>
 
-                    <h1>CSummer Haze</h1>
+                    <h1>Summer Haze</h1>
                     <p>Summer Haze know how to make you look hot in the sun. As part of the larger Force 9 clothing brand, their summer spin-off label is aimed squarely at the scorching end of the market. Need to look good at that beach BBQ? They've got you covered.</p>
 
                     <img src="images/paintbrushes-s.jpg" srcset="images/paintbrushes-m.jpg 800w, images/paintbrushes-l.jpg 1200w, images/paintbrushes-xl.jpg 1500w" alt="Paint brushes"/>
