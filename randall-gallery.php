@@ -11,17 +11,16 @@
                 <?php include("header.php"); ?>
 
                 <div class="page-content randall-gallery project"> 
-                    <img src="images/pastel-addicts-s.jpg" srcset="images/pastel-addicts-m.jpg 800w, images/pastel-addicts-l.jpg 1200w, images/pastel-addicts-xl.jpg 1500w" alt="Pastel coloured squares"/>
+                    <img src="images/randall-gallery-s.jpg" srcset="images/randall-gallery-m.jpg 800w, images/randall-gallery-l.jpg 1200w, images/randall-gallery-xl.jpg 1500w" alt="Modern art"/>
 
                     <h1>Randall Gallery</h1>
                     <p>With all the popularity of the Tate Modern, in a smaller, hipper package, Randall Gallery epitomises all that is great about modern art. As a trendier alternative to the more widely known galleries in London, our job was to elevate their public image to start to achieve more widespread recognition. With our help, they are becoming bigger than ever.</p>
 
-                    <img src="images/paintbrushes-s.jpg" srcset="images/paintbrushes-m.jpg 800w, images/paintbrushes-l.jpg 1200w, images/paintbrushes-xl.jpg 1500w" alt="Paint brushes"/>
+                    <img src="images/randall-gallery-2-s.jpg" srcset="images/randall-gallery-2-m.jpg 800w, images/randall-gallery-2-l.jpg 1200w, images/randall-gallery-2-xl.jpg 1500w" alt="Modern art"/>
 
-                    <img src="images/gallery-s.jpg" srcset="images/gallery-m.jpg 800w, images/gallery-l.jpg 1200w, images/gallery-xl.jpg 1600w" alt="Gallery studio"/>
+                    <img src="images/randall-gallery-3-s.jpg" srcset="images/randall-gallery-3-m.jpg 800w, images/randall-gallery-3-l.jpg 1200w, images/randall-gallery-3-xl.jpg 1500w" alt="Modern art"/>
 
-                    <img src="images/easel-s.jpg" srcset="images/easel-m.jpg 800w, images/easel-l.jpg 1200w, images/easel-xl.jpg 1600w" alt="Easel"/>                    
-
+                    <img src="images/randall-gallery-4-s.jpg" srcset="images/randall-gallery-4-m.jpg 800w, images/randall-gallery-4-l.jpg 1200w, images/randall-gallery-4-xl.jpg 1500w" alt="Modern art"/>                  
                 </div>
 
                 <?php include("footer.php"); ?>
