@@ -66,7 +66,7 @@
                         <div class="block-sizer"></div>
                         <div class="gutter-sizer"></div>
                         <div class="block">
-                            <a href="binksy.php">
+                            <a href="summer-haze.php">
                                 <img src="images/watch-shades-pouch.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
@@ -77,7 +77,7 @@
                             </a>
                         </div>
                         <div class="block">
-                            <a href="binksy.php">
+                            <a href="style-boutique.php">
                                 <img src="images/blue-hair.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
@@ -88,7 +88,7 @@
                             </a>
                         </div>
                         <div class="block"> 
-                            <a href="binksy.php">
+                            <a href="randall-gallery.php">
                                 <img src="images/geometric-waves.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
@@ -99,7 +99,7 @@
                             </a>
                         </div>
                          <div class="block">
-                            <a href="binksy.php">
+                            <a href="patisserie-we-love.php">
                                 <img src="images/macaroons.jpg"/>
                                 <div class="hover-reveal">
                                     <div class="hover-text">
