@@ -11,16 +11,14 @@
                 <?php include("header.php"); ?>
 
                 <div class="page-content safe-harbour project"> 
-                    <img src="images/pastel-blocks-main.jpg"/>
+                    <img src="images/safe-harbour-s.jpg" srcset="images/safe-harbour-m.jpg 800w, images/safe-harbour-l.jpg 1200w, images/safe-harbour-xl.jpg 1500w" alt="Yacht"/>
 
                     <h1>Safe Harbour</h1>
-                    <p>Safe Harbour are a luxury yacht company, specialising in high end charters and sales. They offer only exquisite, opulent experiences, and only the wealthiest need apply. We ensure the reputation is maintained at an exceptionally high level, by providing first class materials to match and exceed their yachts.</p>
+                    <p>Safe Harbour are a luxury yacht company, specialising in high end charters and sales. They offer the finest yachting experiences money can buy. With the right branding, we have positioned them in the elite category, with only the wealthiest customers to take advantage of their services.</p>
 
-                    <img src="images/brushes-s.jpg" srcset="images/brushes-m.jpg 800w, images/brushes-l.jpg 1200w, images/brushes-xl.jpg 1500w" alt="Paint brushes"/>
+                    <img src="images/safe-harbour-2-s.jpg" srcset="images/safe-harbour-2-m.jpg 800w, images/safe-harbour-2-l.jpg 1200w, images/safe-harbour-2-xl.jpg 1500w" alt="Yacht"/>
 
-                    <img src="images/gallery-s.jpg" srcset="images/gallery-m.jpg 800w, images/gallery-l.jpg 1200w, images/gallery-xl.jpg 1600w" alt="Gallery studio"/>
-
-                    <img src="images/easel-s.jpg" srcset="images/easel-m.jpg 800w, images/easel-l.jpg 1200w, images/easel-xl.jpg 1600w" alt="Easel"/>                    
+                    <img src="images/safe-harbour-3-s.jpg" srcset="images/safe-harbour-3-m.jpg 800w, images/safe-harbour-3-l.jpg 1200w, images/safe-harbour-3-xl.jpg 1500w" alt="Yacht"/>        
 
                 </div>
 
