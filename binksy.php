@@ -17,13 +17,11 @@
                     <p>Binksy is a London based street artist with a unique style and exceptional talent.</p>
                     <p>We worked closely with Binksy to market his skills and propel him into the mainstream.</p>
 
-                    <img src="images/cigarette-s.jpg" srcset="images/cigarette-m.jpg 800w, images/cigarette-l.jpg 1200w, images/cigarette-xl.jpg 1600w" alt="Smoking cigarette graffiti"/>
-
                     <img class="portrait left" src="images/glasses-s.jpg" srcset="images/glasses-m.jpg 800w, images/glasses-l.jpg 1200w, images/glasses-xl.jpg 1600w" alt="Man wearing glasses graffiti"/>
 
                     <img class="portrait right" src="images/joker-s.jpg" srcset="images/joker-m.jpg 800w, images/joker-l.jpg 1200w, images/joker-xl.jpg 1600w" alt="The Joker graffiti"/>
 
-                    <img src="images/graffiti-girl-s.jpg" srcset="images/graffiti-girl-m.jpg 800w, images/graffiti-girl-l.jpg 1200w, images/graffiti-girl-xl.jpg 1600w" alt="Graffiti girl crouching"/>
+                    <img src="images/cigarette-s.jpg" srcset="images/cigarette-m.jpg 800w, images/cigarette-l.jpg 1200w, images/cigarette-xl.jpg 1600w" alt="Smoking cigarette graffiti"/>
 
                 </div>
 
